@@ -1,3 +1,93 @@
 body {
     background-color: #eee;
 }
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+    color: #727B81;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+span {
+    color: #0A91DE;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    color: #727B81;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #DDDDDD;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+li {
+    font-family: "Manrope", sans-serif;
+    color: #666F74;
+    padding-top: 1.5rem;
+}
+
+.main-menu li:first-of-type {
+    position: relative;
+}
+
+.sub-menu {
+    border: 1px solid #0A91DE;
+    background-color: #FFFFFF;
+    border-radius: 0.44rem;
+    position: absolute;
+    z-index: 1;
+    right: -3rem;
+    top: 1rem;
+    visibility: hidden;
+}
+
+.sub-menu li {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 1.13rem;
+    margin-right: 1.13rem;
+}
+
+svg {
+    padding-right: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #666F74;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    background-color: #FFFFFF;
+    border: .0625rem solid #DDDDDD;
+    width: 14.5rem;
+    height: 63.9375rem;
+}
+
+a:hover,
+a:focus {
+    color: #666F74;
+    font-weight: bold;
+}
+
+.main-menu li:first-of-type:hover .sub-menu,
+.main-menu li:first-of-type:focus .sub-menu {
+    visibility: visible;
+    opacity: 1;
+}
